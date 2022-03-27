@@ -81,7 +81,7 @@ DB_PORT=<...> # порт для подключения к БД
 
 
 # Ссылка на api сервиса
-
+Пока что без SSL
 [yatubeweb](http://yatubeweb.sytes.net/)
 
 # Автор: 
