@@ -6,7 +6,13 @@ SECRET_KEY = os.getenv(
     'SECRET_KEY', default='p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 )
 DEBUG = False
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    '51.250.6.88',
+    'localhost',
+    'yatubeweb.sytes.net',
+    'web',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
